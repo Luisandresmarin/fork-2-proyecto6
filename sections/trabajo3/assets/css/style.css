@@ -1,0 +1,43 @@
+/* Fuente de Google Fonts */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* REGISTRO DE COLORES DISTINTOS A PALETA BOOTSTRAP */
+/* Verde*/
+.bg-green {
+    background-color: #28A745;
+  }  
+
+.green {
+    color: #28A745;
+}
+
+/* Gris*/
+p, .gris, input[placeholder] {
+    color: #707070;
+    font-weight: 300;
+}
+
+/* FIN DE REGISTRO DE COLORES */
+/* Redimensionamiento de logo blanco */
+.cuppon {
+    width: 100px
+}
+
+/* HOVERS */
+.tarjeta:hover {
+    transform: scale(1.05);
+    border: 4px solid #28A745;
+}
+
+.precio:hover{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+/* FIN DE HOVERS */
+
+/* Color blanco en fondo de escritura formularios */
+.bg-green form input[type="text"], .bg-green form input[type="email"] {
+  background-color: white;
+}
